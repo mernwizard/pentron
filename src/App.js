@@ -7,10 +7,12 @@ import Clients from "./components/Clients";
 import OurPartners from "./components/OurPartners";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop smooth color="#6f00ff" height="20" />
       <Header />
       <MainBanner />
       <About />
