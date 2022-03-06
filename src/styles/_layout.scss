@@ -1,0 +1,32 @@
+.header {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 10vh;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .nav {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 1rem;
+        list-style-type: none;
+        a {
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          font-size: 1rem;
+          font-weight: bold;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: #00bcd4;
+          }
+        }
+      }
+    }
+  }
+}
